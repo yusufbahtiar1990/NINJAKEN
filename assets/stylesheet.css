@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;      
+    opacity: 0.7;
+    color:white;
+}
+a:hover {
+    opacity: 1;
+}
+
+header {
+    color:white;
+    background-color: rgb(82, 80, 80);
+    width:100%;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.header-list li {
+    float: left;
+    padding: 40px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 30px ;
+    display: none;
+    color: rgb(82, 80, 80);
+  }
+
+.container1 {
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+.container1 h1 {
+    font-size: 150px;
+    padding-bottom: 25px;
+    letter-spacing: 20px;
+}
+.container1 span {
+    font-family: 'Times New Roman';
+    color: rgb(223, 180, 42);
+}
+.container1 h2 {
+    font-size: 70px;
+    font-weight: normal;
+    color: rgb(124, 123, 121);
+}
+.container1 img {
+    width: 35%;
+}
+.container1 img:hover {
+    filter: grayscale(1);
+    transform: scale(0.5) rotate(360deg);
+    transition: all 1s ease;
+}
+
+.container2 {
+    padding: 100px 0px;
+    background-color: rgb(238, 233, 233);
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.container2 p {
+    padding-bottom: 3px;
+}
+.kalimat1 {
+    letter-spacing: 2px;
+}
+.kalimat2 {
+    letter-spacing: 1.9px;
+}
+.kalimat3 {
+    letter-spacing: 1.95px;
+}
+.kalimat4 {
+    letter-spacing: 2.1px;
+}
+
+.contents {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.contents img {
+    width:70%;
+    padding-bottom: 25px;
+}
+
+.contents p {
+    padding-bottom: 50px;
+}
+
+.contents-item {
+    display: flex;
+}
+.contents-item li {
+    flex: auto;
+}
+
+.contact-form {
+    width:100%;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+}
+
+.input1, .input2 {
+    width: 700px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input2 {
+    padding-bottom: 40px;
+} 
+
+.input3 {
+    width:400px;
+    margin:20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 197, 39);
+    opacity: 0.7;
+}
+
+.input3:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+footer {
+    width:100%;
+    height:180px;
+    background-color: rgb(92, 89, 89);
+    color: white;
+}
+
+.footer-logo {
+    float: left;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.footer-list {
+    float:right;
+    padding:50px 30px;
+}
+
+.footer-list li {
+    padding-bottom: 15px;
+}
